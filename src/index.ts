@@ -2,7 +2,7 @@ interface Dictionary<T> {
   [index: string]: T;
 }
 
-export default class KeyCompressor {
+class KeyCompressor {
   private readonly dictionary: Dictionary<string> = {};
   private reversedDictionary: Dictionary<string> = {};
 
@@ -46,3 +46,5 @@ export default class KeyCompressor {
     return result;
   };
 }
+
+export = KeyCompressor

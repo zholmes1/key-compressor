@@ -1,6 +1,6 @@
 {
   "name": "key-compressor",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A tiny, dependency-free tool that can compress/decompress property keys to save database storage/bandwidth costs",
   "main": "./src/index.js",
   "repository": "https://github.com/zholmes1/key-compressor",
